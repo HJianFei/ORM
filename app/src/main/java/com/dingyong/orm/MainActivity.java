@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.btn_delete:
-                mUserDao.delete("周杰伦");
+                mUserDao.delete("周杰>>>>伦");
                 break;
             case R.id.btn_update:
                 mUserDao.update("昆凌","女");
